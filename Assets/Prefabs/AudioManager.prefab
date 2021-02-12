@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3731658406390375415
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3731658406390375413}
+  - component: {fileID: 3731658406390375414}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3731658406390375413
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3731658406390375415}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3731658406390375414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3731658406390375415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9b4c94481ca1874292f9bc75e7e283e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - clipName: BackgroundSound
+    clip: {fileID: 8300000, guid: 0a096a09cfee69146b242c762c3eb039, type: 3}
+    pitch: 1
+    volume: 1
+    loop: 1
+    source: {fileID: 0}
+  - clipName: Collectable
+    clip: {fileID: 8300000, guid: a21bd25c6affb234cb1ac3bd01c66c3f, type: 3}
+    pitch: 1
+    volume: 0.7
+    loop: 0
+    source: {fileID: 0}
+  - clipName: DeathSound
+    clip: {fileID: 8300000, guid: 848a836e8c061d2459f95a4ed1c15752, type: 3}
+    pitch: 1
+    volume: 0.7
+    loop: 0
+    source: {fileID: 0}
+  - clipName: LevelCleared
+    clip: {fileID: 8300000, guid: 6e6693f491844e14aae91369b2825765, type: 3}
+    pitch: 1
+    volume: 0.8
+    loop: 0
+    source: {fileID: 0}
+  - clipName: DoorsOpen
+    clip: {fileID: 8300000, guid: 26f4ccb610cd832428e08aae7528b2ed, type: 3}
+    pitch: 1
+    volume: 0.6
+    loop: 0
+    source: {fileID: 0}
+  - clipName: CollectedKey
+    clip: {fileID: 8300000, guid: 49df7f998c704004e96e0437d7a18ea4, type: 3}
+    pitch: 1
+    volume: 0.7
+    loop: 0
+    source: {fileID: 0}
